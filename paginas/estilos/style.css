@@ -5,12 +5,22 @@ body{
 }
 
 header{
-    background-color: rgba(252, 78, 15, 0.808);
+    background-color: black;
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 14px;
+    box-shadow: 2px 2px 2px #ffffff80;
+    color: orange;
     
+}
+
+nav{
+    background-color: black;
+    box-shadow: 2px 2px 2px #ffffff80;
+    padding: 15px;
+    margin: 13px;
+    border-radius: 12px;
 }
 
 nav>a{
@@ -36,20 +46,32 @@ nav>a:active{
 nav>a::after{
     background-color: rgba(255, 72, 72, 0.788);
 }
+ main{
+    background-color: violet;
+    padding: 40px;
+    margin: 12px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #ffffff80;
+ }
 
 section{
     text-align: center;
-    color: blueviolet;
+    color:orange;
     background-color: black;
     border-radius: 14px;
     padding: 14px;
     margin: 13px;
+    box-shadow: 2px 2px 2px #ffffff80;
+    flex-direction: column;
 }
 
 footer{
     background-color: black;
     color: white;
     text-align: center;
+    padding: 1px;
+    box-shadow: 2px 2px 2px #ffffff80;
+    border-radius: 4px;  
 }
 
 footer > p{
